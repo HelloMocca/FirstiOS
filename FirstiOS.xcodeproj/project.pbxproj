@@ -15,6 +15,7 @@
 		C44D9CD31BA11A5C004F6DD5 /* FirstiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C44D9CD21BA11A5C004F6DD5 /* FirstiOSTests.m */; };
 		C44D9CF01BAA571D004F6DD5 /* Accumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = C44D9CEF1BAA571D004F6DD5 /* Accumulator.m */; };
 		C44D9CF31BAA5F57004F6DD5 /* AccumulatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C44D9CF21BAA5F57004F6DD5 /* AccumulatorVC.m */; };
+		C44D9CF61BABABC9004F6DD5 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44D9CF51BABABC9004F6DD5 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		C44D9CEF1BAA571D004F6DD5 /* Accumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accumulator.m; sourceTree = "<group>"; };
 		C44D9CF11BAA5F57004F6DD5 /* AccumulatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccumulatorVC.h; sourceTree = "<group>"; };
 		C44D9CF21BAA5F57004F6DD5 /* AccumulatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccumulatorVC.m; sourceTree = "<group>"; };
+		C44D9CF41BABABC9004F6DD5 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		C44D9CF51BABABC9004F6DD5 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				C44D9CEF1BAA571D004F6DD5 /* Accumulator.m */,
 				C44D9CF11BAA5F57004F6DD5 /* AccumulatorVC.h */,
 				C44D9CF21BAA5F57004F6DD5 /* AccumulatorVC.m */,
+				C44D9CF41BABABC9004F6DD5 /* MyTableViewController.h */,
+				C44D9CF51BABABC9004F6DD5 /* MyTableViewController.m */,
 			);
 			path = FirstiOS;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				C44D9CF31BAA5F57004F6DD5 /* AccumulatorVC.m in Sources */,
 				C44D9CBF1BA11A5C004F6DD5 /* ViewController.m in Sources */,
 				C44D9CBC1BA11A5C004F6DD5 /* AppDelegate.m in Sources */,
+				C44D9CF61BABABC9004F6DD5 /* MyTableViewController.m in Sources */,
 				C44D9CB91BA11A5C004F6DD5 /* main.m in Sources */,
 				C44D9CF01BAA571D004F6DD5 /* Accumulator.m in Sources */,
 			);

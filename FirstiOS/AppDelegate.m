@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "MyTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -24,7 +25,8 @@
     
     UIViewController *viewController = [[ViewController alloc] init]; //View Controller 생성
     //View Controller를 Window의 rootViewController로 지정
-    [[self window] setRootViewController:viewController];
+    MyTableViewController *myTableViewController = [[MyTableViewController alloc] init];
+    [[self window] setRootViewController:myTableViewController];
     return YES;
 }
 

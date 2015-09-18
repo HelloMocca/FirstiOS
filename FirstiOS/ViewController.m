@@ -32,6 +32,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    // View를 정리하는 작업
 }
 
 @end
