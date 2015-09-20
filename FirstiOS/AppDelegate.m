@@ -23,7 +23,7 @@
     [window makeKeyAndVisible]; //keywindow를 visible로 설정
     [self setWindow:window]; //window를 appDelegate에 세팅
     
-    UIViewController *viewController = [[ViewController alloc] init]; //View Controller 생성
+    //UIViewController *viewController = [[ViewController alloc] init]; //View Controller 생성
     //View Controller를 Window의 rootViewController로 지정
     MyTableViewController *myTableViewController = [[MyTableViewController alloc] init];
     [[self window] setRootViewController:myTableViewController];
